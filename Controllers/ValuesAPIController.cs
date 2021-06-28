@@ -25,7 +25,7 @@ namespace InventoryManager.Controllers
 
 
         [HttpGet]
-        
+        /*
         public IEnumerable<InventoryItem>Get()
         {
 
@@ -38,7 +38,7 @@ namespace InventoryManager.Controllers
             })
             .ToArray();
         }
-
+        */
         [HttpGet("{itemId}")]
         public InventoryItem GetItem(int itemId)
         {
@@ -60,7 +60,7 @@ namespace InventoryManager.Controllers
 
 
 
-        /*
+       
         // GET: api/<ValuesControllerAPI>
         [HttpGet]
         public IEnumerable<string> Get()
@@ -93,7 +93,7 @@ namespace InventoryManager.Controllers
         {
         }
 
-        */
+        
 
 
 
